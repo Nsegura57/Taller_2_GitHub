@@ -19,7 +19,7 @@ server = app.server
 app.config.suppress_callback_exceptions = True
 
 
-# Load data from csv
+# Cargar datos energeticos desde el archivo CSV
 def load_data():
     df = pd.read_csv("datos_energia.csv")
     df["time"] = pd.to_datetime(df["time"], dayfirst=True)
