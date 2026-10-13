@@ -7,13 +7,13 @@ import numpy as np
 import pandas as pd
 import datetime as dt
 
-
+# Cambio titulo Raul
 
 app = dash.Dash(
     __name__,
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
 )
-app.title = "Dashboard energia"
+app.title = "Presentacion de Dashboard del pronostico de produccion energetica"
 
 server = app.server
 app.config.suppress_callback_exceptions = True
